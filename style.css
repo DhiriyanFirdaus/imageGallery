@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: #ccc;
+}
+h1 {
+  margin: 20px auto;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0;
+}
+.container {
+  margin: 10px auto;
+  background-color: #4422EE;
+  width: 600px;
+  border: 5px solid transparent;
+  overflow: auto;
+}
+.choice{
+    width: 200px;
+    height: 135px;
+    float: left;
+    border: 2px white solid;
+    box-sizing: border-box;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+.fade{
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+.active{
+  opacity: 0.5;
+}
